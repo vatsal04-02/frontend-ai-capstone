@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="taskflow.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading">
+          <h1>TASKFLOW</h1>
+        </div>
+        
+
+        <div id="input">
+            <input id= "taskInput" type="text" placeholder="Enter task">
+            <button id="addBtn" >Add</button>    
+        </div>
+
+        <div class="filter">
+        <button>ALL</button>
+        <button>Active</button>
+        <button>Completed</button>
+        </div>
+        
+
+        <div id="taskList" class="task-list">
+            <!---Your tasks will appear here!---> 
+        </div>
+       
+
+        <div class="left">
+            <p id="taskCounter">0 tasks left</p>
+        </div>
+    </div>
+
+
+    <script src="taskflow.js"></script>
+</body>
+</html>
